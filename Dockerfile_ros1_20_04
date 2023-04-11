@@ -12,7 +12,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive \
 	doxygen \
 	libopencv-dev \
 	libpoco-dev libtbb-dev libblas-dev liblapack-dev libv4l-dev \
-	python3-catkin-tools python3-osrf-pycommon ros-noetic-mavros
+	python3-catkin-tools python3-osrf-pycommon
 
 
 # Create the workspace and build kalibr in it
