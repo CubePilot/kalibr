@@ -1,6 +1,5 @@
 FROM ros:noetic
 
-
 # Dependencies we use, catkin tools is very good build system
 # https://github.com/ethz-asl/kalibr/wiki/installation
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive \
